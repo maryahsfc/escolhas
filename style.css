@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+background-color: rgb(245,0,176);
+  font-family:"Amatic SC";
+  color: blue;
+  font-size: 30px
+}
+
+input[type="text"]{
+  width: 230px;
+  border: 2px slid blue;
+  border-radius: 100px;
+  
+}
+
+input[type="checkbox"]
+{
+  transform:scale(2);
+  margin-right:30px;
+}
+.esconde{
+  display: none;
+}
+
+.botao{
+  background-color:white;
+    border: 2px solid black;
+  border-radius: 200px;
+  color:black;
+    font-size:30px;
+  font-family:"Amatic SC";
+}
+
+
+.botao:hover{
+  background-color:purple;
+  border: 2px solid purple;
+}
+
